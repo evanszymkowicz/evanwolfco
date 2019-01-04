@@ -2,6 +2,8 @@
 
 Please visit my current website at www.evanwolf.co or evanszymkowicz.github.io while this project is in development.
 
+Plans for this site include: a detailed about page with my background, a section for viewing completed projects, scrolling, contact and links to linkedin and GitHub. 
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
