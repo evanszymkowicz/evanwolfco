@@ -7,7 +7,7 @@ import '.theme/createGlobalStyle';
 
 ReactDOM.render(
   <AppContainer>
-  {routes}
+    {routes}
   </AppContainer>,
   document.getElementById('root')
 );

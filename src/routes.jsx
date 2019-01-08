@@ -1,7 +1,7 @@
 import React from 'react';
 import {IndexRoute, Router, Route, hashHistory} from 'react-router';
 import Home from './containers/Home/Home';
-import App from './containers/App';
+import App from './containers/App/App';
 
 Router.prototype.componentWillRecieveProps = function(nextProps) {
 	let components = [];
@@ -16,7 +16,7 @@ Router.prototype.componentWillRecieveProps = function(nextProps) {
 	}
 	grabComponents(nextProps.routes || nextProps.children);
 	components.forEach(React.createElement);
-);
+
 
 export default (
 	<Router history={hashHistory}>
