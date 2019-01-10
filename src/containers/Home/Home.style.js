@@ -1,12 +1,12 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Image = styled.image`
-	width: 100%;
+  width: 100%;
 `;
 
 export const HeroImage = styled.div`
 	height: 100vh;
-	background-image: ${require('../../assets/hero.jpg')}');
+	background-image: url${require("../../assets/hero.jpg")}');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -26,4 +26,5 @@ export const HeroImage = styled.div`
 	}
 `;
 
-export const revealP = styled.p``
+export const RevealP = styled.p``;
+//I may use pseduoelements to style the homepage further

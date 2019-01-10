@@ -16,12 +16,13 @@ Router.prototype.componentWillRecieveProps = function(nextProps) {
 	}
 	grabComponents(nextProps.routes || nextProps.children);
 	components.forEach(React.createElement);
-
+);
 
 export default (
 	<Router history={hashHistory}>
 		<Route path="/" component={App}>
-			<IndexRoute component={Home} />
+			<IndexRoute component={Home}/>
+			<Route path="/projects" component={Projects}/>
 		</Route>
 	</Router>
-);
+):
