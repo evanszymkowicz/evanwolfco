@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import Zoomy from 'react-zoomy';
 import { ImageButton } from './Projects.style';
 import { Container } from './theme/grid';
+import { A } from './theme/types';
 
 class Projects extends Component {
 	render() {
 		return(
-			<div>
+			<Container>
+				<h1>npm install --save force-directive chart <a href=""></a></h1>
 				<Zoomy
 					imageUrl={require('.assets/sports4.jpg')} //Zoomy functionality
 					renderThumbnail={({ showImage }) =>
@@ -21,7 +23,7 @@ class Projects extends Component {
 						}
 					}}
 				/>
-			</div>
+			</Container>
 		);
 	}
 }

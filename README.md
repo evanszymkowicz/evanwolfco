@@ -5,7 +5,10 @@ Please visit my current website at www.evanwolf.co or evanszymkowicz.github.io w
 Plans for this site include: a detailed about page with my background, a section for viewing completed projects, scrolling, contact and links to linkedin and GitHub.
 
 ## Jan 7 ##
-Currently displaying just a stock image and some text. Still working to implement current versions of packages necessary to run the application
+Currently displaying just a stock image and some text. Still working to implement current versions of packages necessary to run the application.
+
+## Jan 10 ##
+The application architecture and documentation (which is my favorite part) are just about done. The biggest problem right now is getting depreciated modules to work with React 16+ or replace them with newer libraries/functions that work the same
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
