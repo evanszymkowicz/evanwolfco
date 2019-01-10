@@ -15,12 +15,16 @@ export const Container = styled(Div)`
 		padding-left: 30px;
 		padding-right: 30px;
 		padding-top: 15px;
+<<<<<<< HEAD
 	`}
 	${media.phone`
 		padding-left: 10px;
 		padding-right: 10px;
 		padding-top: 15px;
 	`}
+=======
+		`}
+>>>>>>> 556eae16e56a57153cc62f4614aec94e0f591eaa
 `;
 /*custom function to get divs to snap in place relative to parent*/
 export const Relative = styled(Div)`
