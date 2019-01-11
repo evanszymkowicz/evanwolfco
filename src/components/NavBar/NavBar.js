@@ -8,7 +8,7 @@ class <NavBar extends Component {
 			<NavContainer>
 				<NavItem to="/">Home</NavItem>
 				<NavItem to="/projects" Projects</NavItem>
-				<NavItem> About Me</NavItem>
+				<NavItem to="/aboutMe" About Me</NavItem>
 			</NavContainer>
 		);
 	}

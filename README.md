@@ -22,6 +22,9 @@ Styling
 Debugging & rerouting
 Hosting/GCP
 
+## Jan 11 ##
+Far from done, but I am for now.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Available Scripts
