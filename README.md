@@ -8,8 +8,19 @@ Plans for this site include: a detailed about page with my background, a section
 Currently displaying just a stock image and some text. Still working to implement current versions of packages necessary to run the application.
 
 ## Jan 10 ##
-The application architecture and documentation (which is my favorite part) are just about done. The biggest problem right now is getting depreciated modules to work with React 16+ or replace them with newer libraries/functions that work the same
+The application architecture and documentation (which is my favorite part) are just about done. The biggest problem right now is getting depreciated modules to work with React 16+ or replace them with newer libraries/functions that work the same.
 
+### Finished parts: ###
+Layout of the homepage
+Persistent NavBar component
+Projects (placeholder)
+When in view transition using react waypoint.
+
+### Still to be done: ###
+About
+Styling
+Debugging & rerouting
+Hosting/GCP
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

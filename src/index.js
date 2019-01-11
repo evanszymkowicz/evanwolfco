@@ -4,7 +4,6 @@ import routes from './routes';
 import { AppContainer } from 'react-hot-loader';
 import '.theme/createGlobalStyle';
 
-
 ReactDOM.render(
   <AppContainer>
     {routes}
