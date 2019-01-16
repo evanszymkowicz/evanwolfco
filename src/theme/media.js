@@ -1,24 +1,18 @@
-import { css } from 'styled-components';
+import { css } from 'styled-components'
 
 const sizes = {
-	phone: 376,
-	tablet: 768,
-	desktop: 992,
-	giant: 1170
+  giant: 1170,
+  desktop: 992,
+  tablet: 768,
+  phone: 376
 };
 
-const media = Object.keys(sizes).reduce((finalMedia, size) => {
-	return {
-		...finalMedia,
-		[size]: function(...args) {
-			console.log(args);
-			return css`
-				@media(max-width: ${sizes[size]}px) {
-					${css(...args)}
-				}
-			`;
-		}
-	},
+export default Object.keys(sizes).reduce((accumulator, label) => {
+  const emSize = sizes[label] / 16;
+  accumulator[label] = (...args) => css`
+    @media (max-width: ${emSize}em) {
+      ${css(...args)}
+    }
+  `;
+  return accumulator
 }, {});
-
-export default media;
