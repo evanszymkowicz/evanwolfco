@@ -1,6 +1,6 @@
 # www.evanwolf.co
 
-Please visit my current website at www.evanwolf.co or evanszymkowicz.github.io while this project is in development.
+Website built using Create React App v 2.0+ and is hosted on the App Engine by Google Cloud Platform.
 
 Plans for this site include: a detailed about page with my background, a section for viewing completed projects, scrolling, contact and links to linkedin and GitHub.
 
