@@ -1,4 +1,4 @@
-# www.evanwolf.co
+# evanwolf.co
 
 Website built using Create React App v 2.0+ and is hosted on the App Engine by Google Cloud Platform.
 
