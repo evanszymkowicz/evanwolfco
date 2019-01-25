@@ -4,25 +4,25 @@ Website built using Create React App v 2.0+ and is hosted on the App Engine by G
 
 Plans for this site include: a detailed about page with my background, a section for viewing completed projects, scrolling, contact and links to linkedin and GitHub.
 
-## Jan 7 ##
-Currently displaying just a stock image and some text. Still working to implement current versions of packages necessary to run the application.
-
-## Jan 10 ##
-The application architecture and documentation (which is my favorite part) are just about done. The biggest problem right now is getting depreciated modules to work with React 16+ or replace them with newer libraries/functions that work the same.
-
-### Finished parts: ###
+## Finished parts: ##
 Layout of the homepage
 Persistent NavBar component
 Projects (placeholder)
 When in view transition using react waypoint.
 
-### Still to be done: ###
-About
-Styling
-Debugging & rerouting
-Hosting/GCP
+## Still to be done: ##
+New photo of me to replace the hiking photograph. 
+Adding react-router-dom without breaking the whole site.
+Cleaning up the styling a little bit to look more professional.
 
-## Jan 11 ##
+### Jan 7 ###
+Currently displaying just a stock image and some text. Still working to implement current versions of packages necessary to run the application.
+
+### Jan 10 ###
+The application architecture and documentation (which is my favorite part) are just about done. The biggest problem right now is getting depreciated modules to work with React 16+ or replace them with newer libraries/functions that work the same.
+
+
+### Jan 11 ###
 Far from done, but I am for now.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
